@@ -1,12 +1,12 @@
 .github-button {
     display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
+    padding: 8px 16px; /* Adjust padding to make the button smaller */
     background-color: #4CAF50; /* GitHub green color */
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    font-size: 14px; /* Adjust font size of the text */
 }
 
 .github-button:hover {
@@ -14,9 +14,9 @@
 }
 
 .github-icon {
-    width: 24px; /* Adjust size as needed */
+    width: 16px; /* Adjust size of the GitHub icon */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Space between icon and text */
+    margin-right: 8px; /* Space between icon and text */
     vertical-align: middle; /* Center vertically with text */
     filter: invert(100%); /* Invert colors to match background */
 }
@@ -53,4 +53,3 @@ footer {
     background-color: #333;
     color: #ffffff;
 }
-
